@@ -85,6 +85,7 @@
 #define MICROPY_PY_TIME                         (1)
 #define MICROPY_PY_MACHINE_PULSE                (1)
 #define MICROPY_PY_SUBSYSTEM                    (1)
+#define MICROPY_PY_JACDAC                       (1)
 
 #define MICROPY_HW_ENABLE_RNG                   (1)
 #define MICROPY_MBFS                            (1)
