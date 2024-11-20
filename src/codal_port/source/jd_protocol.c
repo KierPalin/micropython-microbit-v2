@@ -1,7 +1,9 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT license.
 
+
 #include "inc/jd_protocol.h"
+#include "inc/interfaces/jd_alloc.h"
 
 #if JD_PHYSICAL
 
