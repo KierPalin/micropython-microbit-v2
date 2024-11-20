@@ -5,7 +5,7 @@
 
 #include "pinnames.h"
 #include "board.h"
-#include "dmesg.h"
+#include "inc/jd_dmesg.h"
 
 #define JD_LOG DMESG
 
