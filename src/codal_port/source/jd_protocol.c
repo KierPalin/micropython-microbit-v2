@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT license.
 
-#include "jd_protocol.h"
+#include "inc/jd_protocol.h"
 
 #if JD_PHYSICAL
 
