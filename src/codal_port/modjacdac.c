@@ -8,11 +8,16 @@
 #include "py/qstr.h"
 
 
+#include "inc/jd_protocol.h"
+#include "source/jd_protocol.c"
+
+
 #if MICROPY_PY_JACDAC
 
 
 // test()
 static mp_obj_t py_jacdac_test(void) {
+    jd_init();
     mp_printf(&mp_plat_print, "Hello :)\n");
     return mp_const_none;
 
