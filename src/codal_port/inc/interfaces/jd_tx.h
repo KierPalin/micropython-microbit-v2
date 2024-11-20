@@ -7,7 +7,8 @@
 #ifndef JD_TX_H
 #define JD_TX_H
 
-#include "jd_service_framework.h"
+#include "inc/jd_service_framework.h"
+
 
 void jd_tx_init(void);
 void jd_tx_flush(void);
